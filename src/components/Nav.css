@@ -1,0 +1,29 @@
+a{
+    text-decoration: none;
+}
+header{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+header>div{
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    flex-wrap: 'nowrap';
+    justify-content: space-between;
+}
+header>div>nav>ul{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 100%;
+    margin-right: 30px;
+}
+header>div>nav>ul>li{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 50px;
+}
+header>div>nav>ul>li>a{
+    color: black;
+}

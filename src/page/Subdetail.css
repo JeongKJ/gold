@@ -1,0 +1,49 @@
+#detailcont>.subdetail {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+#detailcont>.subdetail>h1 {
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+#detailcont>.subdetail>ul {
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+#detailcont>.subdetail>ul>li {
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+}
+
+
+#detailcont>.subdetail>ul>li>a>figure>img {
+    width: 200px;
+    height: 200px;
+}
+
+#detailcont>.subdetail>ul>li:not(:nth-child(-n+3)){
+    display: none;
+}
+
+#detailcont>.subdetail>ul>li>a{
+    color: black;
+}
+
+#detailcont>.subdetail>ul>li>a>figure>figcaption>dl>dt{
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 10px;
+}
+#detailcont>.subdetail>ul>li>a>figure>figcaption>dl>dt>a{
+    color: black;
+}
+#detailcont>.subdetail>ul>li>a>figure>figcaption>dl>dd{
+        text-align: center;
+        font-size: 15px;
+}

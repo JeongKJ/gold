@@ -1,0 +1,17 @@
+#collection{
+    width: 70%;
+    margin: 0 auto;
+}
+#collection>h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#collection>ul{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#collection>ul>li{
+    cursor: pointer;
+}

@@ -1,0 +1,42 @@
+.modalwrap{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #666;
+    height: 100%;
+}
+.figurewrap{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 200px;
+    background-color: #fff;
+    padding: 50px;
+    position: relative;    
+}
+.modalwrap>.figurewrap>figure{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: 50px;
+}
+img{
+    margin-right: 50px;
+}
+.modalwrap>.figurewrap>figure>figcaption{
+    font-size: 16px;
+    line-height: 20px;
+}
+.modalwrap>.figurewrap>p{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.modalwrap>.figurewrap>p>button{
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 3px;
+}
+.modalwrap>.figurewrap>p>button:hover{
+    background: #666;
+}

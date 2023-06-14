@@ -1,0 +1,31 @@
+.about{
+    width: 40%;
+    margin: 0 auto;
+}
+.about>h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.about>h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.about>h4{
+    margin-bottom: 15px;
+}
+.about p{
+    margin-bottom: 20px;
+}
+.about>button{
+    width: 200px;
+    height: 50px;
+    background-color: #fff;
+    color: black;
+    border: 1px solid;
+    margin: 20px 0;
+    margin-left: 300px;
+}
+.about>button>a{
+    color: blue;
+}

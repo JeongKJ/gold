@@ -1,0 +1,164 @@
+[
+{
+    "id":"1",
+    "title":"RING 'METAL DROP' - GLD",
+    "slug":"product01",
+    "price":"140,00",
+    "category":"ring",
+    "detail":"Bague 'METAL DROP' Composition: unisexe acier inoxydable 304 plaqué or 18k Taille S, M, L, XL",
+    "img":"./img/1.JPG"
+,   "img2":"./img/1-2.PNG"
+    
+},
+{
+    "id":"2",
+    "title":"RING 'METAL DROP' - PAL",
+    "slug":"product02",
+    "price":"140,00",
+    "category":"ring",
+    "detail":"Bague 'METAL DROP' unisexe Composition:acier inoxydable 304 plaqué palladium Taille S, M, L, XL"
+,   "img":"./img/2.JPG"
+,   "img2":"./img/2-2.PNG"
+},
+{
+    "id":"3",
+    "title":"EARRING 'BALL' - PAL",
+    "slug":"product03",
+    "price":"130,00",
+    "category":"earring",
+    "detail":"Boucle d'oreille 'BALL' unisexe Diam. 30 mm Composition:laiton plaqué palladium Taille unique"
+,   "img":"./img/3.JPG"
+,   "img2":"./img/3-2.PNG"
+},
+{
+    "id":"4",
+    "title":"EARRING 'BALL' - GLD",
+    "slug":"product04",
+    "price":"130,00",
+    "category":"earring",
+    "detail":"Boucle d'oreille 'BALL' unisexe Diam. 30 mm Composition: laiton plaqué or 18k Taille unique"
+,   "img":"./img/4.JPG"
+,   "img2":"./img/4-2.PNG"
+},
+{
+    "id":"5",
+    "title":"EARRING 'WIRE' - GLD",
+    "slug":"product05",
+    "price":"130,00",
+    "category":"earring",
+    "detail":"Boucle d'oreille 'WIRE unisexe 25 x 20 mm Composition: laiton plaqué or 18k Taille unique"
+,   "img":"./img/5.JPG"
+,   "img2":"./img/5-2.PNG"
+},
+{
+    "id":"6",
+    "title":"EARRING 'WIRE' - PAL",
+    "slug":"product06",
+    "price":"130,00",
+    "category":"earring",
+    "detail":"Boucle d'oreille 'WIRE' unisexe 25 x 20 mm Composition: laiton plaqué palladium Taille unique"
+,   "img":"./img/6.JPG"
+,   "img2":"./img/6-2.PNG"
+},
+{
+    "id":"7",
+    "title":"BRACELET 'VINTAGE/CUBAN BOLD' - GLD",
+    "slug":"product07",
+    "price":"250,00",
+    "category":"bracelet",
+    "detail":"Bracelet 'VINTAGE/CUBAN BOLD' unisexe Composition: Acier inoxydable 304 / laiton, plaqué palladium / or 18K Taille S, M, L"
+,   "img":"./img/7.JPG"
+,   "img2":"./img/7-2.PNG"
+},
+{
+    "id":"8",
+    "title":"BRACELET 'CUBAN/LOGO' - GLD",
+    "slug":"product08",
+    "price":"210,00",
+    "category":"bracelet",
+    "detail":"Bracelet 'CUBAN/LOGO' unisexe Composition: Acier inoxydable 304 / laiton, plaqué palladium / or 18K Taille S, M, L"
+,   "img":"./img/7.JPG"
+,   "img2":"./img/8-2.PNG"
+},
+{
+    "id":"9",
+    "title":"BRACELET 'CUBAN/LOGO' - PAL",
+    "slug":"product09",
+    "price":"210,00",
+    "category":"bracelet",
+    "detail":"Bracelet 'CUBAN/LOGO' unisexe Composition: Acier inoxydable 304 / laiton, plaqué palladium / or 18K Taille S, M, L"
+,   "img":"./img/9.JPG"
+,   "img2":"./img/9-2.PNG"
+},
+{
+    "id":"10",
+    "title":"BRACELET 'CUBAN/LOGO' - GLD",
+    "slug":"product10",
+    "price":"210,00",
+    "category":"bracelet",
+    "detail":"Bracelet 'CUBAN/LOGO' unisexe Composition: Acier inoxydable 304 / laiton, plaqué palladium / or 18K Taille S, M, L"
+,   "img":"./img/10.JPG"
+,   "img2":"./img/10-2.PNG"
+},
+{
+    "id":"11",
+    "title":"BRACELET 'VINTAGE/BOLD PEARLS' - GLD",
+    "slug":"product11",
+    "price":"210,00",
+    "category":"bracelet",
+    "detail":"Bracelet 'VINTAGE/BOLD PEARLS' unisexe Composition: Acier inoxydable 304 / laiton, plaqué or 18K Perles naturelles blanches Taille S, M, L"
+,   "img":"./img/11.JPG"
+,   "img2":"./img/11-2.PNG"
+},
+{
+    "id":"12",
+    "title":"BRACELET 'VINTAGE/BOLD PEARLS' - PAL",
+    "slug":"product12",
+    "price":"210,00",
+    "category":"bracelet",
+    "detail":"Bracelet 'VINTAGE/BOLD PEARLS' unisexe Composition: Acier inoxydable 304 / laiton, plaqué palladium Perles naturelles blanches Taille S, M, L"
+,   "img":"./img/123.JPG"
+,   "img2":"./img/12-2.PNG"
+},
+{
+    "id":"13",
+    "title":"NECKLACE 'VINTAGE/CUBAN BOLD' - PAL",
+    "slug":"product13",
+    "price":"310,00",
+    "category":"necklace",
+    "detail":"Collier 'VINTAGE/CUBAN BOLD' unisexe Composition: Acier inoxydable 304 / laiton, plaqué palladium / or 18k Taille S, M, L"
+,   "img":"./img/13.JPG"
+,   "img2":"./img/13-2.PNG"
+},
+{
+    "id":"14",
+    "title":"NECKLACE 'VINTAGE/CUBAN BOLD' - GLD",
+    "slug":"product14",
+    "price":"310,00",
+    "category":"necklace",
+    "detail":"Collier 'VINTAGE/CUBAN BOLD' unisexe Composition: Acier inoxydable 304 / laiton, plaqué palladium / or 18k Taille S, M, L"
+,   "img":"./img/14.JPG"
+,   "img2":"./img/14-2.PNG"
+},
+{
+    "id":"15",
+    "title":"EARRING 'METAL DROP' - GLD",
+    "slug":"product15",
+    "price":"140,00",
+    "category":"earring",
+    "detail":"Boucle d'oreille 'METAL DROP' unisexe Diam. 25mm Composition: laiton plaqué or 18K Taille unique"
+,   "img":"./img/15.JPG"
+,   "img2":"./img/15-2.PNG"
+    },{
+    "id":"16",
+    "title":"EARRING 'METAL DROP' - PAL",
+    "slug":"product16",
+    "price":"140,00",
+    "category":"earring",
+    "detail":"Boucle d'oreille 'METAL DROP' unisexe Diam. 25mm Composition: laiton plaqué palladium Taille unique"
+,   "img":"./img/16.JPG"
+,   "img2":"./img/16-2.PNG"
+}
+
+
+]
