@@ -1,0 +1,47 @@
+.wishlist{
+    width: 70%;
+    margin: 0 auto;
+}
+.wishlist>h1{
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.wishlist>ul>li{
+    margin-bottom: 50px;
+    border-bottom: 1px solid;
+    padding-bottom: 50px;
+}
+.wishlist>ul>li>figure{
+    display: flex;
+    flex-wrap: wrap;
+}
+.wishlist>ul>li>figure>img{
+    width: 200px;
+    height: 200px;
+    margin-right: 100px;
+}
+.wishlist>ul>li>figure>figcaption{
+    width: 70%;
+}
+.wishlist>ul>li>figure>figcaption>dl{
+    position: relative;
+}
+.wishlist>ul>li>figure>figcaption>dl>dt{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.wishlist>ul>li>figure>figcaption>dl>dd{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.wishlist>ul>li>figure>figcaption>dl>p>button{
+    position: absolute;
+    margin-top: 50px;
+    width: 200px;
+    height: 30px;
+    right: 0;
+    background-color: black;
+    color: #fff;
+    border: none;
+}
