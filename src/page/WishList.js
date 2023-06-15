@@ -13,10 +13,10 @@ export default function WishList() {
          const NestCourses = getWishList();
         setCourses(NestCourses)
     }
-    const num = courses.length;
-    console.log(num);
+
     return (
-        <div className="wishlist">
+        <>
+        <div className="wishlist">      
             <h1>WishList</h1>
             <ul>
                 {courses.map((course)=>(<li key={course.slug}>
@@ -38,13 +38,12 @@ export default function WishList() {
                     </p>
                             </dl>
                         </figcaption>
-                           
                     </figure>
-           
-                </li>))}
-                
+                </li>))}   
             </ul>
+            
             </div>
+            </>
     )
 
 }

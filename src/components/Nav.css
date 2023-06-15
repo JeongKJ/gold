@@ -18,11 +18,30 @@ header>div>nav>ul{
     align-items: center;
     height: 100%;
     margin-right: 30px;
+    position: relative;
+}
+header>div>nav>ul>p{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 60px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
 }
 header>div>nav>ul>li{
     font-weight: bold;
     font-size: 20px;
     margin-right: 50px;
+    position: relative;
+}
+header>div>nav>ul>li p{
+    position: absolute;
+    top: 0;
+    margin-left: 13px;
+    font-size: 20px;
+    color: red;
 }
 header>div>nav>ul>li>a{
     color: black;
