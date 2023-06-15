@@ -9,10 +9,10 @@
     height: 30px;
     margin-bottom: 50px;
     margin-left: 400px;
+    border: 1px solid #666;
+    border-radius: 20px;
 }
-.itembox>form>button{
-    height: 36px;
-}
+
 .itembox>.ulgroup{
     display: flex;
     flex-wrap: nowrap;
@@ -51,19 +51,25 @@
     color: black;
     border: none;
 }
-.itembox>.ulgroup>ul>li>figure>img{
+.itembox>.ulgroup>ul>li>a>figure:hover{
+    opacity: 50%;
+}
+.itembox>.ulgroup>ul>li>a>figure>img{
     width: 240px;
     height: 240px;
 }
-.itembox>.ulgroup>ul>li>figure>figcaption>dl>dt{
+.itembox>.ulgroup>ul>li>a>figure>figcaption>dl>dt{
     font-size: 16px;
     text-align: center;
     margin-bottom: 10px;
 }
-.itembox>.ulgroup>ul>li>figure>figcaption>dl>dt>a{
+.itembox>.ulgroup>ul>li>a>figure>figcaption>dl{
     color: black;
 }
-.itembox>.ulgroup>ul>li>figure>figcaption>dl>dd{
+.itembox>.ulgroup>ul>li>a>figure>figcaption>dl>dd{
     text-align: center;
     font-size: 15px;
+}
+.itembox>.ulgroup>ul:nth-of-type(2)>figure>figcaption>dl{
+    text-align: center;
 }

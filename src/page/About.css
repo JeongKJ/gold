@@ -1,7 +1,11 @@
 .about{
-    width: 40%;
+    width: 60%;
     margin: 0 auto;
 }
+.about>img{
+    width: 20%;
+}
+.about>{}
 .about>h1{
     font-size: 25px;
     margin-bottom: 20px;
@@ -24,8 +28,8 @@
     color: black;
     border: 1px solid;
     margin: 20px 0;
-    margin-left: 300px;
+    margin-left: 500px;
 }
 .about>button>a{
-    color: blue;
+    color: #666;
 }

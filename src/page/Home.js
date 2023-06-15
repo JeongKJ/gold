@@ -41,20 +41,22 @@ export default function Home() {
                 <h1>Best Item</h1>
                 <ul>
                     <p><Link to="/product">more</Link></p>
-            {list.map((item) => (<li key={item.id}>
+                    {list.map((item) => (<li key={item.id}>
+                <Link to={`product/${item.slug}`}>
                   <figure>
                     <img src={item.img} alt="이미지"/>
                     <figcaption>
                         <dl>
                             <dt>
-                                <Link to={`product/${item.slug}`}>{item.title}</Link>
+                                {item.title}
                             </dt>
                             <dd>
                                 {item.price} €
                             </dd>
                         </dl>
                     </figcaption>
-                </figure>
+                        </figure>
+                        </Link>
             </li>))}
                 </ul>
         </div>           

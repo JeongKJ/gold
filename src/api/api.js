@@ -1,5 +1,6 @@
 
 import pro from './data.json';
+import photo from './photo.json';
 
 export function Check(keyword) {
     if (!keyword) return pro;
@@ -19,7 +20,9 @@ export function similar(slug) {
     return pro.filter(({category}) => category === (pro.find((data) => data.slug === slug).category));
 }
 
-
+export function Photo(ex) {
+    if (!ex) return photo;
+}
 const WISHLIST_KEY = 'wishlist'
 const wishlist = JSON.parse(localStorage.getItem(WISHLIST_KEY)|| '{}')
 

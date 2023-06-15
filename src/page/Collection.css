@@ -1,5 +1,5 @@
 #collection{
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 #collection>h1{
@@ -8,10 +8,14 @@
 }
 #collection>ul{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 20px;
 }
 #collection>ul>li{
     cursor: pointer;
+    margin-bottom: 50px;
+}
+#collection>ul>li>img:hover{
+    opacity: 50%;
 }

@@ -4,7 +4,7 @@ import './Detail.css';
 import { Subdetail } from "./Subdetai";
 
 export default function Detail() {
-     const { slug } = useParams();
+    const { slug } = useParams();
     const data = Checkdata(slug);
     const more = similar(slug);
     const navigate = useNavigate();
@@ -12,7 +12,6 @@ export default function Detail() {
         addWishList(data?.slug)
         navigate('/wishlist')
     }
-    console.log(more);
     return (
         <div id="detailcont">
         <div className="detail">

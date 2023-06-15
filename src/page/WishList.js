@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import './WishList.css'
 export default function WishList() {
     const [courses, setCourses] = useState([]);
-
     useEffect(() => {
         const NestCourses = getWishList();
         setCourses(NestCourses)
@@ -14,7 +13,8 @@ export default function WishList() {
          const NestCourses = getWishList();
         setCourses(NestCourses)
     }
-
+    const num = courses.length;
+    console.log(num);
     return (
         <div className="wishlist">
             <h1>WishList</h1>
@@ -46,4 +46,5 @@ export default function WishList() {
             </ul>
             </div>
     )
+
 }

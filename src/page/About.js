@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import './About.css';
 
-
 export default function About() {
     return (
         <div className="about">
@@ -67,7 +66,7 @@ Each of them refers to random objects, more or less useful, more or less preciou
 
 He produced a striking photographic report, highlighting the reality of these men and women, trough 13 portraits of biffins from the Porte de Clignancourt in Paris.)</p>
             <p>Limited stocks and production to order take part in a global action for a new reasoned consumption process.
- </p>
-        </div>
+                </p>
+            </div>
     )
 }

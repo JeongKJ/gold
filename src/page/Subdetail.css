@@ -20,11 +20,15 @@
     display: flex;
     align-items: center;
 }
+#detailcont>.subdetail>ul>li>a>figure:hover{
+    opacity: 50%;
+}
 
 
 #detailcont>.subdetail>ul>li>a>figure>img {
     width: 200px;
     height: 200px;
+    margin: 0;
 }
 
 #detailcont>.subdetail>ul>li:not(:nth-child(-n+3)){
@@ -37,13 +41,13 @@
 
 #detailcont>.subdetail>ul>li>a>figure>figcaption>dl>dt{
         font-size: 16px;
-        text-align: center;
         margin-bottom: 10px;
+        text-align: center;
 }
 #detailcont>.subdetail>ul>li>a>figure>figcaption>dl>dt>a{
     color: black;
 }
 #detailcont>.subdetail>ul>li>a>figure>figcaption>dl>dd{
-        text-align: center;
         font-size: 15px;
+        text-align: center;
 }

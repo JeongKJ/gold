@@ -18,12 +18,11 @@ export default function Product() {
     }
     const [catego, setCatego] = useState('')
     const setCate = category(catego);
-if(catego ==='') {
+    if(catego ==='') {
         return (
             <div className="itembox">
             <form onSubmit={submitsearch}>
-            <input type="text" placeholder="Search..."  onChange={keywordchange} />
-            <button type="submit">Search</button>
+            <input type="text" placeholder=" Search..."  onChange={keywordchange} />
             </form>
                 <div className='ulgroup'>
        <ul>
@@ -35,12 +34,12 @@ if(catego ==='') {
             </ul>
             <ul>
                 {pro.map((data) => (<li key={data.id}>
-                                        <figure>
+                                        <Link to={data.slug}><figure>
                         <img src={data.img} alt="이미지"/>
                         <figcaption>
                             <dl>
                                 <dt>
-                                    <Link to={data.slug}>{data.title}</Link>
+                                    {data.title}
                                 </dt>
                                 <dd>
                                     {data.price} €
@@ -48,6 +47,7 @@ if(catego ==='') {
                             </dl>
                         </figcaption>
                     </figure>
+                        </Link>
                 </li>))}
                 </ul>
                 </div>
@@ -60,7 +60,6 @@ if(catego ==='') {
             <div className="itembox">
             <form onSubmit={submitsearch}>
             <input type="text" placeholder="Search..."  onChange={keywordchange} />
-            <button type="submit">Search</button>
             </form>
             <div className='ulgroup'>
             <ul>
@@ -72,12 +71,12 @@ if(catego ==='') {
             </ul>
             <ul>
             {setCate.map((data) => (<li key={data.id}>
-                                    <figure>
+                                    <Link to={data.slug}><figure>
                     <img src={data.img} alt="이미지"/>
                     <figcaption>
                         <dl>
                             <dt>
-                                <Link to={data.slug}>{data.title}</Link>
+                                {data.title}
                             </dt>
                             <dd>
                                 {data.price} €
@@ -85,6 +84,7 @@ if(catego ==='') {
                         </dl>
                     </figcaption>
                 </figure>
+                    </Link>
             </li>))}
             </ul>
                 </div>
