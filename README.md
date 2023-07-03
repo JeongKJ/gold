@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# 제목
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 소개
 
-## Available Scripts
+가상 클라이언트 A씨를 가정하여 만든 개인 포트폴리오 사이트입니다.
 
-In the project directory, you can run:
+### 배포링크
 
-### `npm start`
+배포방식은 AWS:S3의 간이 배포를 이용하였습니다.
+<a href="http://kmkm37.react.portfoilo.s3-website.ap-northeast-2.amazonaws.com">http://kmkm37.react.portfoilo.s3-website.ap-northeast-2.amazonaws.com</a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 개발 도구 및 환경
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+##### 개발환경: VScode, npm, Parcel-bundler
 
-### `npm test`
+##### 개발도구: HTML, CSS, Javascript, jQuery, React
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 프로젝트 설명
 
-### `npm run build`
+#### 프로젝트 계획서
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+###### <a href="">계획서기열람하기</a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### 헤더(Header) & 푸터(Footer)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 헤더와 푸터는 각페이지의 Html에 삽입하고 js와 css를 공유하여 import하는 방식을 이용했습니다.
 
-### `npm run eject`
+#### 메인페이지(home.js)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Swiper를 사용하여 광고 배너가 보이도록 만들었습니다.
+2. Best Item이란 타이틀에 같은 카테고리의 상품들을 보여주고, more 클릭시 product페이지로 이동하게 만들었습니다.
+3. 데이터는 Json으로 작성하여 불러오는 방식을 이용했습니다.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### 상품 페이지(product.js)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. 데이터 방식은 Json으로 작성하여 불러오는 방식을 이용
+2. Searching 기능과 카테고리를 넣어서 찾는 종류나 이름에 따라 정렬되도록 만듬
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### 콘텍트 페이지(contact.html)
 
-## Learn More
+1. 상품 페이지에서 제품 클릭시 상세페이지(detail.js)로 이동하여 상세정보가 나타나게 하고 카트에 넣는 기능을 추가
+2. 카트에 넣을때 해당 데이터는 Local Storage를 통해서 임시로 넣어둠
+3. 현재 상품과 같은 카테고리에 속한 상품들을 연관상품으로 보여주도록 만듦
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### 장바구니 페이지(event.html)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. 상세페이지에서 장바구니 추가시 장바구니 페이지로 이동되고 장바구니 페이지에 아이템이 추가되며 삭제시 Local Storage에서 삭제
+2. 장바구니 item 추가 삭제 후 새로고침시 header에 장바구니 아이콘에 표시되는 숫자가 변하는 형식
 
-### Code Splitting
+### 자기평가
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### 부족한점
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Local Storage 활용능력이 아직 부족하여 장바구니 추가시 새로고침을 하지않으면 header에 표시되는 장바구니 숫자가 늘어나지 않는데 추후에 공부를하여 다시 수정해야 할 것 같습니다.
+2. React routing을 활용한 첫 포트폴리오라서 계획 및 설계 단계부터 어려움을 많이 겪었습니다.
+   routing react-hook 에 대해서 더 믾은 공부를 해야겠다고 셍긱헸습니다.
